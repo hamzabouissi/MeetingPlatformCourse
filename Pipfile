@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "*"
+django-stubs = "*"
+django-redis = "*"
+drf-yasg = "*"
+
+[dev-packages]
+mypy = "*"
+pylama = "*"
+django-stubs = {editable = true, git = "https://github.com/mkurnikov/django-stubs"}
+black = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
