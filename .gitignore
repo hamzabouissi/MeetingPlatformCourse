@@ -116,3 +116,4 @@ media/
 
 # docker
 docker/**/data
+!docker
